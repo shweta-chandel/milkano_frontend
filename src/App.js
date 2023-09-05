@@ -49,7 +49,7 @@ function App() {
                   </div>
                   <div>
                     <div class="mb-3">
-                      <label for="male" class="form-label" style={{fontWeight:'bold'}}>
+                      <label for="Select" class="form-label" style={{fontWeight:'bold'}}>
                         Select
                       </label>
                       <div style={{display:'flex'}}>
@@ -57,11 +57,11 @@ function App() {
                         <input
                           class="form-check-input"
                           type="radio"
-                          name="gender"
-                          id="male"
-                          value="male"
+                          name="Select"
+                          id="B2B"
+                          value="B2B"
                         />
-                        <label class="form-check-label" for="male" style={{fontWeight:'bold'}}>
+                        <label class="form-check-label" for="B2B" style={{fontWeight:'bold'}}>
                         B2B
                         </label>
                       </div>
@@ -69,11 +69,11 @@ function App() {
                         <input
                           class="form-check-input"
                           type="radio"
-                          name="gender"
-                          id="female"
-                          value="female"
+                          name="Select"
+                          id="B2C"
+                          value="B2C"
                         />
-                        <label class="form-check-label" for="female" style={{fontWeight:'bold'}}>
+                        <label class="form-check-label" for="B2C" style={{fontWeight:'bold'}}>
                          B2C
                         </label>
                       </div>
